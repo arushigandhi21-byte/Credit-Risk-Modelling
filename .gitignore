@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Raw local data (remove this rule only if the data is safe to publish)
+dataset/
+
